@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson 4</title>
+    <meta charset="UTF-8"/>
+
+    <script src="src/index.js" type="module"></script>
+</head>
+
+<body>
+<h1>MiniMaple like Derivative Calculator </h1>
+<div class="expression-enterbox">
+    <input type="text" id="expression" size="50" placeholder="2*x^2+x^3*4">
+    <input type="text" id="variable" size="1" onkeydown="return /[a-z]/.test(event.key)" placeholder="x" maxlength="1">
+    <button id="calculateButton">=</button>
+</div>
+<div id="container">
+    <div class="result"></div>
+</div>
+</body>
+</html>
